@@ -1,6 +1,7 @@
     // 1. Setup and Initial Code Structure
 document.addEventListener('DOMContentLoaded', function () {
-
+        
+   
     // Task 2: Form Selection and Feedback Division Selection
         const form = document.getElementById('registration-form');
 
