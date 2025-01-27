@@ -37,14 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Task 5: Feedback Display Logic
-        feedbackDiv.style.display = 'block'; // Show feedback division
+        feedbackDiv.style.display = 'block'; 
         
         if (isValid) {
             feedbackDiv.textContent = "Registration successful!";
-            feedbackDiv.style.color = "#28a745"; // Green color for success
+            feedbackDiv.style.color = "#28a745"; 
         } else {
-            feedbackDiv.innerHTML = messages.join('<br>'); // Display validation errors
-            feedbackDiv.style.color = "#dc3545"; // Red color for error
+            feedbackDiv.innerHTML = messages.join('<br>'); 
+            feedbackDiv.style.color = "#dc3545"; 
         }
     });
 });

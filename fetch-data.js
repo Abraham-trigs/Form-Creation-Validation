@@ -29,7 +29,7 @@ async function fetchUserData() {
     } catch (error) {
         // 7. Error Handling:
         dataContainer.innerHTML = '';
-        dataContainer.textContent = 'Failed to load user data.'; // Display error message
+        dataContainer.textContent = 'Failed to load user data.';
     }
 }
 
